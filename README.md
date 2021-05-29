@@ -8,3 +8,6 @@ The first stage capsule network is presented in <a href="https://github.com/Shah
 <img src="https://github.com/ParnianA/LDCT-COVID/blob/main/Figures/Framework.png"/>
 
 It is also possible to merge the output probabilities of the three classes (COVID-19, CAP, normal) with the 8 clinical data (demographic and symptoms,  i.e., sex, age, weight, and presence or absence of 5 symptoms of cough, fever, dyspnea, chest pain, and fatigue) and feed to a multi-layer perceptron (MLP) model for the final decision. 
+
+<img src="https://github.com/ParnianA/LDCT-COVID/blob/main/Figures/MLP.png"/>
+
