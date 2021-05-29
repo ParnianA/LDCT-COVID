@@ -6,3 +6,5 @@ LDCT-COVID is a two-stage time-distrubeted capsule network to classify volumetri
 The first stage capsule network is presented in <a href="https://github.com/ShahinSHH/CT-CAPS"> Here</a> and classifies individual scans as having an evidence of infection or not. 10 most probable slices with infection are then selected as inputs to the second stage, which consists of time-distributed capsule networks, referring to processing slices at the same time through the same model. In this stage, classification probabilities generated from individual slices go through a global max pooling operation to make the final decision. The second stage also takes into account the infection probability calculated in the first stage.
 
 <img src="https://github.com/ParnianA/LDCT-COVID/blob/main/Figures/Framework.png"/>
+
+It is also possible to merge the output probabilities of the three classes (COVID-19, CAP, normal) with the 8 clinical data (demographic and symptoms,  i.e., sex, age, weight, and presence or absence of 5 symptoms of cough, fever, dyspnea, chest pain, and fatigue) and feed to a multi-layer perceptron (MLP) model for the final decision. 
