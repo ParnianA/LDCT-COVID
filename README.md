@@ -11,3 +11,16 @@ It is also possible to merge the output probabilities of the three classes (COVI
 
 <img src="https://github.com/ParnianA/LDCT-COVID/blob/main/Figures/MLP.png"/>
 
+<h3>Note : Please don’t use LDCT-COVID as the self-diagnostic model without performing a clinical study and consulting with a medical specialist.</h3>
+
+## Dataset
+LDCT scans are publically availabale <a href="https://ieee-dataport.org/open-access/covid-19-low-dose-and-ultra-low-dose-ct-scans"> Here</a> and CAP dataset is obtained from <a href="https://springernature.figshare.com/articles/dataset/COVID-CT-MD_COVID-19_Computed_Tomography_Scan_Dataset_Applicable_in_Machine_Learning_and_Deep_Learning/12991592"> Here</a>.
+
+## Requirements
+* Tested with tensorflow 1.14.0 and keras 2.2.4<br>
+-- Try tensorflow.keras instead of keras if it doesn't work in your system.
+* Python 3.7
+* Numpy
+
+
+
