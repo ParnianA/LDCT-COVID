@@ -22,5 +22,18 @@ LDCT scans are publicly available <a href="https://ieee-dataport.org/open-access
 * Python 3.7
 * Numpy
 
+## Citation
+If you found the provided code and the related paper useful in your research, please consider citing:
+
+```
+@misc{afshar2021humanlevel,
+      title={Human-level COVID-19 Diagnosis from Low-dose CT Scans Using a Two-stage Time-distributed Capsule Network}, 
+      author={Parnian Afshar and Moezedin Javad Rafiee and Farnoosh Naderkhani and Shahin Heidarian and Nastaran Enshaei and Anastasia Oikonomou and Faranak Babaki Fard and Reut Anconina and Keyvan Farahani and Konstantinos N. Plataniotis and Arash Mohammadi},
+      year={2021},
+      eprint={2105.14656},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+
 
 
